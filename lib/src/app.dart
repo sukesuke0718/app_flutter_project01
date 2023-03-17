@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'screen/page.dart';
 import 'screen/my_home_page.dart';
+import 'screen/navigation.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: const FirstPage(),
+      home: const MainPage(title: 'test',),
     );
   }
 }
